@@ -36,6 +36,10 @@ public class C2 {
 		
 		List<String> names=Arrays.asList("Abc","Xyz","test","Aaa","Bbb");
 		
+		//names.forEach(name->{
+		//	System.out.println(name);
+		//});
+		
 		names.forEach(out::println);
 		
 		T3 t3=(x,y)->out.println(x+y);
